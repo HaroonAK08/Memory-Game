@@ -1,0 +1,37 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* background-color: #b4e1ff; */
+}
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.btn1 {
+  background-color: rgb(143, 143, 255);
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  width: 120px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s,
+    box-shadow 0.3s;
+}
+
+.btn1:hover {
+  background-color: rgb(241, 241, 254);
+  color: rgb(143, 143, 255);
+  border-color: rgb(163, 163, 255);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2),
+    inset 0 1px 2px rgba(255, 255, 255, 0.1);
+}
